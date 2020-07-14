@@ -1,0 +1,6 @@
+progen init -p stm32f103cb -tar stm32f103cb  //注意删除 删除 Cube 生成的 EWARM 等非必要文件夹
+
+progen generate -f projects.yaml -p stm32f103cb -t iar_arm
+
+
+
