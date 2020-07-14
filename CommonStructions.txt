@@ -2,5 +2,5 @@ progen init -p stm32f103cb -tar stm32f103cb  //注意删除 删除 Cube 生成�
 
 progen generate -f projects.yaml -p stm32f103cb -t iar_arm
 
-
+git submodule add https://github.com/SuWeipeng/rt-thread.git
 
